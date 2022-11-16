@@ -5,6 +5,7 @@ import 'package:menu/vistas/menu_p.dart';
 import 'package:menu/vistas/sedes.dart';
 import 'package:menu/vistas/signinpage.dart';
 import 'package:menu/widgets/wcWidgets.dart';
+import 'package:menu/vistas/pantallacarga.dart';
 
 class wellcomepage extends StatelessWidget {
   wellcomepage({Key? key}) : super(key: key);

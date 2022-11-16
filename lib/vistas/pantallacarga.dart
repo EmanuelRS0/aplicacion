@@ -1,12 +1,7 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:menu/vistas/signinpage.dart';
-import 'package:menu/vistas/wellcomepage.dart';
-import 'package:menu/widgets/wcWidgets.dart';
 
-class sedes extends StatelessWidget {
-  const sedes({super.key});
-
+class pantallacarga extends StatelessWidget {
+  const pantallacarga({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,7 +26,7 @@ class sedes extends StatelessWidget {
         children: const [
           Spacer(flex: 1),
           Text(
-            "Sedes",
+            "Nombre",
             textAlign: TextAlign.left,
             style: TextStyle(
               fontSize: 50,
@@ -41,32 +36,31 @@ class sedes extends StatelessWidget {
             ),
           ),
           Spacer(flex: 1),
+          SizedBox(
+            width: 200,
+            child: TextField(
+              decoration: InputDecoration(
+                hintText: "Name",
+              ),
+            ),
+          ),
+          Spacer(flex: 1),
           Text(
-            "Ubicación Envigado",
-            textAlign: TextAlign.left,
+            "TU DOMICILO ESTÁ SIENDO PROCESADO",
+            textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 25,
+              fontSize: 70,
+              letterSpacing: 1,
               color: Color.fromARGB(255, 0, 0, 0),
               fontWeight: FontWeight.bold,
               fontFamily: "Gagaline",
             ),
           ),
-          const Image(image: AssetImage("assets/Ubicacion 1.png")),
           Spacer(flex: 1),
-          Text(
-            "Ubicación Poblado",
-            textAlign: TextAlign.left,
-            style: TextStyle(
-              fontSize: 25,
-              color: Color.fromARGB(255, 0, 0, 0),
-              fontWeight: FontWeight.bold,
-              fontFamily: "Gagaline",
-            ),
+          Image(
+            image: NetworkImage(
+                'https://img.pikbest.com/png-images/20190918/cartoon-snail-loading-loading-gif-animation_2734139.png!c1024wm0'),
           ),
-          const Image(image: AssetImage("assets/Ubicacion 2.png")),
-          Spacer(flex: 1),
-          const Image(image: AssetImage("assets/lomejor.png")),
-          Spacer(flex: 1),
         ],
       ),
     )));
