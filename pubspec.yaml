@@ -42,19 +42,9 @@ flutter:
   - assets/factural.png
   - assets/logoPicadas.png
   - assets/lomejor.png
-<<<<<<< HEAD
   - assets/Ubicacion 1.png
   - assets/Ubicacion 2.png
   - assets/Ubicacion 3.png
-=======
-  - assets/loguito.png
-  - assets/login.png
-  - assets/tradicionales.png
-  - assets/arma.png
-  - assets/sedesi.png
-  - assets/sugerencias.png
-  - assets/registro.png
->>>>>>> 721fce55db0d06d27c05b6c60dca6240aad7a729
 
   fonts:
   - family: Gagaline

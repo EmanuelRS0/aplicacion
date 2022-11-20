@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:menu/vistas/factura.dart';
+import 'package:menu/vistas/pantallacarga.dart';
 import 'package:menu/widgets/wcWidgets.dart';
 
 class Domicilio extends StatelessWidget {
@@ -64,7 +65,7 @@ class Domicilio extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) {
-                    return const factura();
+                    return const pantallacarga();
                   },
                 ),
               );

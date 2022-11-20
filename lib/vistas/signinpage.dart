@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:menu/vistas/domicilio.dart';
 import 'package:menu/vistas/menu.dart';
 import 'package:menu/vistas/menu_p.dart';
+import 'package:menu/vistas/pantallacarga.dart';
 import 'package:menu/vistas/sedes.dart';
 //import 'package:menu/vistas/signinpage.dart';
 import 'package:menu/widgets/wcWidgets.dart';
@@ -55,7 +56,7 @@ class signinpage extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return const menu_p();
+                      return const sedes();
                     },
                   ),
                 );
